@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./animations.css";
+
+:root {
+  --color-hex: #fff;
+  --foreground-hex: #1c1c1c;
+  --hover-dark-background: #0e0129;
+  --hover-dark-background-100: #0e012942;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: rgb(var(--color-hex));
+  background: var(--foreground-hex);
+}
+
+header {
+  -webkit-box-shadow: 2px -17px 38px 1px rgba(255,255,255,0.4);
+  -moz-box-shadow: 2px -17px 38px 1px rgba(255,255,255,0.4);
+  box-shadow: 2px -17px 38px 1px rgba(255,255,255,0.4);
+}
+
+.font-Borel{
+  font-family: 'Borel', cursive;
+}
+
+.font-barlow {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.btn {
+  position: relative;
+  padding: 0.8rem 3rem;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn.btn-default {
+  color: var(--foreground-hex);
+  font-weight: 500;
+  text-align: center;
+  background: #fff;
+}
+
+.btn.btn-default:hover,
+.btn.btn-light:hover {
+  color: #fff;
+}
+
+.btn.btn-light {
+  color: var(--foreground-hex);
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid var(--foreground-hex);
+}
+
+:hover.shadow-light {
+  filter: drop-shadow(5px 5px 17px #ffffff);
+}

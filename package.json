@@ -1,0 +1,48 @@
+{
+  "name": "secutiry-network",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6",
+    "framer-motion": "^10.15.0",
+    "next": "13.4.6",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.2",
+    "typeit-react": "^2.6.4",
+    "typescript": "5.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.4",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.54.0",
+    "autoprefixer": "^10.4.12",
+    "eslint": "8.25.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jsdom": "^16.2.2",
+    "postcss": "^8.4.18",
+    "react-test-renderer": "^18.2.0"
+  }
+}
