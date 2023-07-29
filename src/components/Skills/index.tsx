@@ -2,7 +2,6 @@ import { Container } from "../shared/Container";
 import { skills } from "src/constants/skills";
 import { SkillItem } from "./skillItem";
 import { motion } from 'framer-motion';
-import TypeIt from "typeit-react";
 
 export function Skills() {
   return (

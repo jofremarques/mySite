@@ -9,6 +9,7 @@
   --foreground-hex: #1c1c1c;
   --hover-dark-background: #0e0129;
   --hover-dark-background-100: #0e012942;
+  --teme-color: #00fffc;
 }
 
 * {
@@ -22,13 +23,13 @@ body {
 }
 
 header {
-  -webkit-box-shadow: 2px -17px 38px 1px rgba(255,255,255,0.4);
-  -moz-box-shadow: 2px -17px 38px 1px rgba(255,255,255,0.4);
-  box-shadow: 2px -17px 38px 1px rgba(255,255,255,0.4);
+  -webkit-box-shadow: 2px -17px 38px 1px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: 2px -17px 38px 1px rgba(255, 255, 255, 0.4);
+  box-shadow: 2px -17px 38px 1px rgba(255, 255, 255, 0.4);
 }
 
-.font-Borel{
-  font-family: 'Borel', cursive;
+.font-Borel {
+  font-family: "Borel", cursive;
 }
 
 .font-barlow {
@@ -65,3 +66,24 @@ header {
 :hover.shadow-light {
   filter: drop-shadow(5px 5px 17px #ffffff);
 }
+
+/*Editing bullets swiper*/
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active-prev,
+.swiper-pagination-bullet-active-next {
+  border: 1px solid var(--teme-color) !important;
+  background: none !important;
+  opacity: 1 !important;
+  width: 15px !important;
+  height: 15px !important;
+  margin-top: 10px !important;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  border: 1px solid var(--teme-color) !important;
+  background: var(--teme-color) !important;
+  width: 15px !important;
+  height: 15px !important;
+  margin-top: 10px !important;
+}
+/* END Editing bullets swiper*/

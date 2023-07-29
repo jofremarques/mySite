@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { AboutUs } from "src/components/AboutUs";
 import { Appresentation } from "src/components/Appresentation";
+import { MyServices } from "src/components/MyServices";
 import { Skills } from "src/components/Skills";
 import ButtonTop from "src/components/shared/GoToTop";
 import { SocialBar } from "src/components/shared/SocialBar";
@@ -34,6 +35,7 @@ export default function Index() {
       <Appresentation />
       <AboutUs />
       <Skills />
+      <MyServices />
     </>
   );
 }

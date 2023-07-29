@@ -29,7 +29,7 @@ export function Header() {
   }, []);
 
   return (
-    <header className={`${show ? "sticky bg-brand-primary z-10 top-0 ease-in duration-300 h-[10vh]" : "sticky bg-transparent z-10 top-0 ease-in duration-300 h-[10vh]"}`}>
+    <header className={`${show ? "sticky bg-brand-primary z-10 top-0 ease-in duration-300 h-[100px]" : "sticky bg-transparent z-10 top-0 ease-in duration-300 h-[10vh]"}`}>
       <Container className="py-0" classContainer={'hidden lg:block px-[2rem]'} >
         <div className="header-menu flex items-center ">
           <span onClick={handleScrollTop} className="w-[25%] cursor-pointer">
