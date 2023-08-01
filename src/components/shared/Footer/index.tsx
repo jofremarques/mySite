@@ -26,15 +26,15 @@ export function Footer() {
             <div className="contact-mail">
               <Link
                 className="text-[1.2rem] text-color-white flex items-center transition ease-in-out
-                delay-150 cursor-pointer shadow-light"
+                delay-150 cursor-pointer shadow-light flex-wrap"
                 href={"mailto:jofremartinsmarques@gmail.com"}
                 target="_blank">
-                <EmailIcon
-                  width={"15px"}
-                  height={"15px"}
-                  className="fill-white mr-[10px] flex items-center cursor-pointer"
-                />
-                E-mail: &nbsp;
+                <span className="w-full flex">
+                  <EmailIcon
+                    width={"15px"}
+                    height={"15px"}
+                    className="fill-white mr-[10px] flex items-center cursor-pointer"
+                  />E-mail:</span>
                 <span className="text-[1.82rem] font-barlow">
                   jofremartinsmarques@gmail.com
                 </span>

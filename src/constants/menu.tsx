@@ -5,7 +5,7 @@ export const menu = [
     label: "Sobre",
     link: "#sobre",
     planet: <Image
-      className="w-[2vw] h-[25px] max-w-[2vw]"
+      className="w-[25px] h-[25px] max-w-[25px]"
       src="/img/terra.gif"
       alt="logo"
 
@@ -17,7 +17,7 @@ export const menu = [
     label: "Skills",
     link: "#skills",
     planet: <Image
-    className="w-[2vw] h-[25px] max-w-[2vw]"
+    className="w-[25px] h-[25px] max-w-[25px]"
     src="/img/marte.gif"
     alt="logo"
 
@@ -29,7 +29,7 @@ export const menu = [
     label: "Portifolio",
     link: "#portifolio",
     planet: <Image
-    className="w-[2vw] h-[25px] max-w-[2vw]"
+    className="w-[25px] h-[25px] max-w-[25px]"
     src="/img/jupiter.gif"
     alt="logo"
 
@@ -41,7 +41,7 @@ export const menu = [
     label: "Contato",
     link: "#contato",
     planet: <Image
-    className="w-[2vw] h-[25px] max-w-[2vw]"
+    className="w-[25px] h-[25px] max-w-[25px]"
     src="/img/saturno.gif"
     alt="logo"
 

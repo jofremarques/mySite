@@ -6,8 +6,8 @@ export function Appresentation() {
   return (
     <main id="apresentacao">
       <Container>
-        <div className="row flex flex-wrap lg:h-[65vh] 2xl:h-[80vh] items-center">
-          <div className="col w-full md:w-[50%] ">
+        <div className="row flex flex-wrap mt-[7rem] lg:mt-0 h-[50vh] lg:h-[65vh] 2xl:h-[80vh] items-center">
+          <div className="col w-full md:w-[50%] lg:ml-[3rem]">
             <div className="write bg-[#00000082] rounded-lg">
               <TypeIt
                 options={{ speed: 20 }}

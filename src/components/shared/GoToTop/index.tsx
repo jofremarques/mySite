@@ -9,7 +9,7 @@ const ButtonTop = (props: any) => {
   return (
     <button
       onClick={handleScrollTop}
-      className={`w-[5vw] go-top fixed top-[85%] cursor-pointer z-20 ease-in duration-300 text-common-white ${props.showButton ? "show right-[3%]" : "-right-[10%]"}`
+      className={`w-[15vw] lg:w-[5vw] go-top fixed top-[85%] cursor-pointer z-20 ease-in duration-300 text-common-white ${props.showButton ? "show right-[3%]" : "-right-[15%]"}`
       }
     >
       {props.children}

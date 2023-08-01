@@ -1,5 +1,5 @@
 import { Container } from "../shared/Container";
-import { skills } from "src/constants/skills";
+import { skills, skillsComportamentais } from "src/constants/skills";
 import { SkillItem } from "./skillItem";
 import { motion } from 'framer-motion';
 
@@ -79,16 +79,16 @@ export function Skills() {
               exit={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}
             >
-              {skills.map(({ icon, text }, key) => {
+              {skillsComportamentais.map(({ text }, key) => {
                 return (
                   <SkillItem
                     key={key}
-                    icon={icon}
                     text={text}
                     initial={{ opacity: 0, scale: 0 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0 }}
                     transition={{ duration: 1, delay: key * 0.2 }}
+                    className={'w-[10vw]'}
                   />
                 );
               })}
